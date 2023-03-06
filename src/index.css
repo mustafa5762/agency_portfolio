@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: 'Butler';
+  src: url('fonts/Butler-UltraLight.woff') format('woff2'),
+      url('fonts/Butler-UltraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Butler';
+  src: url('fonts/Butler-Medium.woff2') format('woff2'),
+      url('fonts/Butler-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Butler';
+  src: url('fonts/Butler-Light.woff2') format('woff2'),
+      url('fonts/Butler-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Butler';
+  src: url('fonts/Butler-Black.woff2') format('woff2'),
+      url('fonts/Butler-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Butler';
+  src: url('fonts/Butler-Bold.woff2') format('woff2'),
+      url('fonts/Butler-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Butler';
+  src: url('fonts/Butler-ExtraBold.woff2') format('woff2'),
+      url('fonts/Butler-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Butler';
+  src: url('fonts/Butler.woff2') format('woff2'),
+      url('fonts/Butler.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  font-family: 'Inter';
+  background-color: #fffbeb;
+  overflow-x: hidden;
+}
+.font-fancy {
+  font-family: 'Butler';
+}
+.mtm {
+  margin-bottom: -30px;
+}
+.letter {
+  display: inline-block;
+  overflow: hidden;
+  filter: blur(4px);
+}
+
