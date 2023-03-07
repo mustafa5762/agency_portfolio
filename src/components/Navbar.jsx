@@ -16,13 +16,13 @@ function Navbar() {
   return (
     <>
         <div className="h-20 flex items-center justify-between border-b border-neutral-200">
-              <div className="border-r border-neutral-200 h-20 flex items-center lg:px-20 px-6">
+              <div className="h-20 flex items-center lg:px-20 px-6">
                 <div className="text-amber-900 text-2xl font-fancy">Cuberto</div>
               </div>  
-              <div onClick={() => setopen(true)} className="border-l border-neutral-200 h-20 flex items-center lg:px-20 px-6">
+              <div onClick={() => setopen(true)} className="h-20 flex items-center lg:px-20 px-6">
                 <div>
-                  <div className="w-10 h-0.5 bg-amber-900 mb-1.5"></div>
-                  <div className="w-10 h-0.5 bg-amber-900 mt-1.5"></div>
+                  <div className="w-8 h-0.5 bg-amber-900 mb-1.5"></div>
+                  <div className="w-8 h-0.5 bg-amber-900 mt-1.5"></div>
                 </div>
               </div>
         </div>
