@@ -66,7 +66,7 @@ function Navbar() {
                 </div>
                 <div className='mt-10'>
                   <div className="font-medium text-amber-900">Socials</div>
-                  <div className="font-semibold text-xl text-amber-900 mt-4">Insta</div>
+                  <div className="font-semibold text-xl text-amber-900 mt-4">Instagram</div>
                   <div className="font-semibold text-xl text-amber-900 mt-1">Facebook</div>
                   <div className="font-semibold text-xl text-amber-900 mt-1">Linkedin</div>
                 </div>
