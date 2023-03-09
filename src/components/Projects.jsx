@@ -7,15 +7,15 @@ function Projects() {
     <>
         <div className="mt-40 lg:mt-60 projects">
 
-          <div className="px-20">
+          <div className="px-2 lg:px-20">
             <div className="flex items-center justify-between">
-              <div className="font-bold text-amber-900 text-xl">( Featured Projects )</div>
-              <div className="font-bold text-amber-900 text-lg">( 2021 - 2023 )</div>
-              <div></div>
+              <div className="font-bold text-amber-900 lg:text-xl">( Featured Projects )</div>
+              <div className="font-bold text-amber-900 lg:text-lg">( 2021 - 2023 )</div>
+              <div className='hidden lg:flex'></div>
             </div>
           </div>
 
-          <div className="mt-20 px-40">
+          <div className="mt-20 px-2 lg:px-40">
             <Project no={1} name="Royaltees Ecommerce"/>
             <Project no={2} name="Codrops Blog"/>
             <Project no={3} name="Printing Agency Site"/>

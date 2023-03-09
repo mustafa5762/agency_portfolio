@@ -10,15 +10,15 @@ import AnimatedPages from './AnimatedPages';
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="app">
-        <ReactLenis root>
-        <Navbar/>
-          <AnimatedPages/>
-        <Footer/>
-      </ReactLenis>
-      </div>
-    </BrowserRouter>
+    <div className="aspp">
+      <BrowserRouter>
+          <ReactLenis root>
+          <Navbar/>
+            <AnimatedPages/>
+          <Footer/>
+        </ReactLenis>
+      </BrowserRouter>
+    </div>
   )
 }
 

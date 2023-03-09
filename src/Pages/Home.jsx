@@ -14,7 +14,7 @@ function Home() {
       <main>
         <Transition/>
         <Hero/>
-        <div className="mt-80 px-2 lg:px-20">
+        <div className="mt-28 lg:mt-80 px-2 lg:px-20">
           <video autoPlay muted loop className='rounded-md' src="https://d2ywvxhe0539k6.cloudfront.net/BLVR_HOMEPAGE_VIDEO_21-9.mp4"></video>
         </div>
         <About/>
