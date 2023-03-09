@@ -6,14 +6,14 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import Home from './Pages/Home';
 import { AnimatePresence } from 'framer-motion';
 
-function AnimatedPages() {
+function AnimatedPages({variant,setvariant}) {
 
     const location = useLocation();
 
   return (
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home variant={variant} setvariant={setvariant} />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path='*' element={<NotFound />} />

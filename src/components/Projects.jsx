@@ -2,7 +2,7 @@ import React from 'react'
 import Button from './Button';
 import Project from './Project';
 
-function Projects() {
+function Projects({variant,setvariant}) {
   return (
     <>
         <div className="mt-40 lg:mt-60 projects">
@@ -15,11 +15,11 @@ function Projects() {
             </div>
           </div>
 
-          <div className="mt-20 px-2 lg:px-40">
-            <Project no={1} name="Royaltees Ecommerce"/>
-            <Project no={2} name="Codrops Blog"/>
-            <Project no={3} name="Printing Agency Site"/>
-            <Project no={3} name="Code Sharing Application"/>
+          <div className="mt-20 px-2 lg:px-20">
+            <Project variant={variant} setvariant={setvariant} no={1} name="Royaltees Ecommerce"/>
+            <Project variant={variant} setvariant={setvariant} no={2} name="Codrops Blog"/>
+            <Project variant={variant} setvariant={setvariant} no={3} name="Printing Agency Site"/>
+            <Project variant={variant} setvariant={setvariant} no={3} name="Code Sharing Application"/>
             <div className="mt-20 flex justify-center">
               <Button>
                 All Works

@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 
 function Hero() {
 
-  const arrow = useRef();
+  /* const arrow = useRef();
 
   useLayoutEffect(() => {
     anime.timeline({loop: true})
@@ -21,7 +21,7 @@ function Hero() {
       translateY: [0,40],
       easing: "easeInOutQuad",
     })
-  }, [])
+  }, []) */
 
   
   
@@ -33,11 +33,11 @@ function Hero() {
           <Marquee speed="40" gradient={false} className='text-amber-900 font-fancy text-5xl py-4 lg:text-8xl overflow-hidden mt-6'>
                  3D  /  Branding  /  Design  / Development  /  SEO  /  <span style={{color:'#fffbeb'}}>f</span>
           </Marquee>
-          <Marquee speed="40" direction="right" gradient={false} className='text-amber-900 font-fancy text-5xl py-4 lg:text-8xl overflow-hidden lg:mt-6'>
+          <Marquee speed="40" direction="right" gradient={false} className='text-amber-900 font-fancy text-5xl py-4 lg:text-8xl overflow-hidden lg:mt-4'>
                  3D  /  Branding  /  Design  / Development  /  SEO  /  <span style={{color:'#fffbeb'}}>f</span> 
           </Marquee>
         </div>
-        <div className="hidden lg:flex absolute left-20 bottom-20">
+        {/*<div className="hidden lg:flex absolute left-10 bottom-10">
           <div className="flex justify-between items-center">
             <div className="flex items-center">
               <div className="text-amber-900 mr-1">
@@ -48,7 +48,7 @@ function Hero() {
               <div className="text-amber-900 font-bold text-lg">Scroll <br /> Down</div>
             </div>
           </div>
-        </div>
+  </div> */}
     </>
   )
 }
