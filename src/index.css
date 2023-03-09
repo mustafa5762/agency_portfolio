@@ -57,25 +57,21 @@
 }
 
 @font-face {
-  font-family: 'CC';
+  font-family: 'Cabinet Grotesk';
   src: url('fonts/CabinetGrotesk-Variable.ttf');
 }
 
 
 body {
-  font-family: 'CC';
+  font-family: 'Cabinet Grotesk';
   background-color: #fffbeb;
   overflow-x: hidden;
 }
 .font-fancy {
   font-family: 'Butler';
 }
-.mtm {
-  margin-bottom: -30px;
-}
-.letter {
-  display: inline-block;
-  overflow: hidden;
-  filter: blur(4px);
-}
+
+
+
+
 

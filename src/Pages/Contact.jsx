@@ -1,10 +1,12 @@
 import React from 'react'
 import Marquee from 'react-fast-marquee'
 import Button from '../components/Button'
+import Transition from '../components/Transition'
 
 function Contact() {
   return (
     <div>
+        <Transition/>
         <Marquee speed="50" gradient={false} className='border-b border-neutral-200 text-amber-900 font-fancy text-5xl py-6 lg:text-8xl overflow-hidden mt-6'>
             Contact  /  Contact  /  Contact  / Contact  /  Contact  /  <span style={{color:'#fffbeb'}}>f</span>
         </Marquee>
