@@ -2,14 +2,14 @@ import React from 'react'
 import {motion} from 'framer-motion'
 
 
-function Project({no,name,variant,setvariant}) {
+function Project({no,name,img}) {
   return (
-    <div onMouseEnter={() => setvariant("image")} onMouseLeave={() => setvariant("simple")} className='pt-16 relative'>
-        <div className="flex justify-between items-center mb-16">
+    <div className='pt-10 lg:pt-16 relative'>
+        <div className="flex justify-between items-center mb-10 lg:mb-16">
           <div className="flex items-center">
             <div className="w-10 lg:w-16 h-10 lg:h-16 rounded-full flex justify-center items-center border border-amber-900 text-amber-900 font-fancy">0{no}</div>
             <div className="ml-5 lg:ml-10">
-              <motion.h1 initial={{opacity:0,y:30}} whileInView={{opacity:1,y:0}} viewport={{ once: true }} transition={{duration:1,ease:[0.87, 0, 0.13, 1]}} className="text-4xl lg:text-8xl font-fancy text-amber-900">{name}</motion.h1>
+              <motion.h1 initial={{opacity:0,y:60}} whileInView={{opacity:1,y:0}} viewport={{ once: true }} transition={{duration:1,ease:[0.61, 1, 0.88, 1]}} className="text-4xl lg:text-8xl font-fancy text-amber-900">{name}</motion.h1>
               <div className="text-amber-900 text-lg lg:text-2xl font-semibold mt-2 lg:mt-4">Website</div>
             </div>
           </div>

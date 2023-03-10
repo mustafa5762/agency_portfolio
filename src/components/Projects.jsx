@@ -2,7 +2,7 @@ import React from 'react'
 import Button from './Button';
 import Project from './Project';
 
-function Projects({variant,setvariant}) {
+function Projects() {
   return (
     <>
         <div className="mt-40 lg:mt-60 projects">
@@ -16,10 +16,10 @@ function Projects({variant,setvariant}) {
           </div>
 
           <div className="mt-20 px-2 lg:px-20">
-            <Project variant={variant} setvariant={setvariant} no={1} name="Royaltees Ecommerce"/>
-            <Project variant={variant} setvariant={setvariant} no={2} name="Codrops Blog"/>
-            <Project variant={variant} setvariant={setvariant} no={3} name="Printing Agency Site"/>
-            <Project variant={variant} setvariant={setvariant} no={3} name="Code Sharing Application"/>
+            <Project img="https://images.prismic.io/magnetism/e99b9ce9-8af4-4286-b1bf-ff8dc0c3c773_marie-brizard-preview.jpg?auto=compress,format&w=960" no={1} name="Royaltees Ecommerce"/>
+            <Project img="https://images.prismic.io/magnetism/b3e7f6b8-62b8-49bf-9d29-19f953e1ca01_16_Hennessy_Couv.jpg?auto=compress,format&w=960" no={2} name="Codrops Blog"/>
+            <Project img="https://images.prismic.io/magnetism/e99b9ce9-8af4-4286-b1bf-ff8dc0c3c773_marie-brizard-preview.jpg?auto=compress,format&w=960" no={3} name="Printing Agency Site"/>
+            <Project img="https://images.prismic.io/magnetism/e99b9ce9-8af4-4286-b1bf-ff8dc0c3c773_marie-brizard-preview.jpg?auto=compress,format&w=960" no={3} name="Code Sharing Application"/>
             <div className="mt-20 flex justify-center">
               <Button>
                 All Works
