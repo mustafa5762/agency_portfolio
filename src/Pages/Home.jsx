@@ -6,6 +6,7 @@ import Projects from '../components/Projects'
 import Transition from '../components/Transition'
 import { Cursor } from 'react-creative-cursor';
 import 'react-creative-cursor/dist/styles.css';
+import Services from '../components/Services'
 
 
 
@@ -24,6 +25,7 @@ function Home() {
         <About/>
         <Projects />
         <Custom/>
+        <Services/>
       </main>
     </>
   )

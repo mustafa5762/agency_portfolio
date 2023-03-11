@@ -14,7 +14,7 @@ function About() {
         </Marquee>
 
         <div className="mt-20 lg:mt-40 px-4 lg:px-20">
-          <div className="font-fancy text-5xl text-amber-900">
+          <div className="font-fancy text-3xl lg:text-5xl text-amber-900">
             <Typed
                 strings={["Hyālō","Konnichiwa",'Hello','Hola','Assalam-o-Alaikum','Ciao','Bonjour','Namaste','Marhaba', "Olá" ]}
                 typeSpeed={40}

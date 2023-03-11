@@ -44,9 +44,9 @@ function Contact() {
                     <div className="bg-amber-100 p-20 z-50 shadow-lg rounded-md">
                         <div className="font-fancy text-5xl text-amber-900 text-center">Send Message</div>
                         <form className='mt-10 flex flex-col space-y-10'>
-                            <input className='hover:px-3 transition-all focus:px-3 transition-300 bg-transparent focus:outline-none border-b border-amber-900 w-96 text-amber-900 py-2 capitalize placeholder-amber-900 placeholder-opacity-50 font-medium' type="text" placeholder='Your Name' />
-                            <input className='hover:px-3 transition-all focus:px-3 bg-transparent focus:outline-none border-b border-amber-900 w-96 text-amber-900 py-2 placeholder-amber-900 placeholder-opacity-50 font-medium' type="text" placeholder='Your Email' />
-                            <textarea className='hover:px-3 transition-all focus:px-3 bg-transparent focus:outline-none border-b border-amber-900 w-96 text-amber-900 py-2 capitalize placeholder-amber-900 placeholder-opacity-50 font-medium' type="text" placeholder='Your Message' />
+                            <input style={{width:500}} className='bg-transparent focus:outline-none border-b border-amber-300 focus:border-amber-900 text-amber-900 py-2 capitalize placeholder-amber-900 placeholder-opacity-50 font-medium' type="text" placeholder='Your Name' />
+                            <input style={{width:500}} className='bg-transparent focus:outline-none border-b border-amber-300 focus:border-amber-900 text-amber-900 py-2 placeholder-amber-900 placeholder-opacity-50 font-medium' type="text" placeholder='Your Email' />
+                            <textarea style={{width:500}} className='bg-transparent focus:outline-none border-b border-amber-300 focus:border-amber-900 text-amber-900 py-2 capitalize placeholder-amber-900 placeholder-opacity-50 font-medium' type="text" placeholder='Your Message' />
                             <div className="flex justify-center">
                             <Button>
                                 Submit
