@@ -14,7 +14,7 @@ function Custom() {
           </Button>
         </div>
         <div className='relative' style={{marginTop: '-140px'}}>
-          <Marquee speed="50" gradient={false} style={{transform:'rotate(-6deg)'}} className='bg-white text-neutral-900 font-fancy text-3xl lg:text-7xl py-5 lg:py-10 overflow-hidden shadow-xl border'>
+          <Marquee speed="50" gradient={false} style={{transform:'rotate(-6deg)'}} className='bg-neutral-900 text-white font-fancy text-3xl lg:text-7xl py-5 lg:py-10 overflow-hidden shadow-xl border'>
               Custom Session  /  Custom Session  /  Custom Session  / Custom Session  /  <span style={{color:'#fff'}}>f</span>
           </Marquee>
         <div className="absolute top-0 left-0">

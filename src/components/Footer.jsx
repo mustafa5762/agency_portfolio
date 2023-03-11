@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 function Footer() {
   return (
     <div>
-        <motion.footer initial={{backgroundColor: '#FFFBEB'}} whileInView={{backgroundColor: '#FEF3C7'}} transition={{duration:1}} className="mt-40 h-screen w-full flex items-center justify-center">
+        <motion.footer initial={{backgroundColor: '#FFFBEB'}} whileInView={{backgroundColor: '#FEF3C7'}} transition={{duration:1,delay:.5}} className="mt-40 h-screen w-full flex items-center justify-center">
             <div className='text-center'>
               <div className="text-6xl lg:text-9xl text-amber-900 font-fancy">Have An Idea?</div>
               <div className="flex items-center justify-center">

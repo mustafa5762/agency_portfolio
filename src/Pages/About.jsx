@@ -2,6 +2,7 @@ import React from 'react'
 import Marquee from 'react-fast-marquee'
 import Transition from '../components/Transition'
 import Typed from 'react-typed';
+import Testimonials from '../components/Testimonials'
 
 
 function About() {
@@ -30,6 +31,8 @@ function About() {
           <p className='my-6 text-lg lg:text-xl text-amber-900 tracking-wide lg:w-4/6 font-medium'>
             Our range of services includes [list of services offered]. Whether you need a new website, a comprehensive branding campaign, or a social media strategy, we have the skills and expertise to deliver results.
           </p>
+
+          
         </div>
     </div>
   )
