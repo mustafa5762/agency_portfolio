@@ -10,7 +10,6 @@ function Project({no,name,img}) {
             <div className="w-10 lg:w-16 h-10 lg:h-16 rounded-full flex justify-center items-center border border-amber-900 text-amber-900 font-fancy">0{no}</div>
             <div className="ml-5 lg:ml-10">
               <motion.h1 initial={{opacity:0,y:60}} whileInView={{opacity:1,y:0}} viewport={{ once: true }} transition={{duration:1,ease:[0.61, 1, 0.88, 1]}} className="text-4xl lg:text-8xl font-fancy text-amber-900">{name}</motion.h1>
-              <div className="text-amber-900 text-lg lg:text-2xl font-semibold mt-2 lg:mt-4">Website</div>
             </div>
           </div>
           <div className="text-amber-900">
